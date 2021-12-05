@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1cd780ec-f9cd-4c4f-86da-a95a74041392" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="21oXJW5LtiuK0Rant0zVRk7dUUK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fatih\Desktop\Api test\RestAssuredExampleProject" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.GetMethods">
+    <configuration name="GetMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="requests" />
+      <option name="MAIN_CLASS_NAME" value="requests.GetMethods" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetMethods.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="requests" />
+      <option name="MAIN_CLASS_NAME" value="requests.GetMethods" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetMethods.getAllGrocery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="requests" />
+      <option name="MAIN_CLASS_NAME" value="requests.GetMethods" />
+      <option name="METHOD_NAME" value="getAllGrocery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetMethods.getGroceryName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="requests" />
+      <option name="MAIN_CLASS_NAME" value="requests.GetMethods" />
+      <option name="METHOD_NAME" value="getGroceryName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostMethods.Requests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="requests" />
+      <option name="MAIN_CLASS_NAME" value="requests.PostMethods" />
+      <option name="METHOD_NAME" value="Requests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetMethods" />
+        <item itemvalue="JUnit.GetMethods.getAllGrocery" />
+        <item itemvalue="JUnit.GetMethods.getGroceryName" />
+        <item itemvalue="JUnit.GetMethods.add" />
+        <item itemvalue="JUnit.PostMethods.Requests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1cd780ec-f9cd-4c4f-86da-a95a74041392" name="Default Changelist" comment="" />
+      <created>1638608341902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638608341902</updated>
+    </task>
+    <servers />
+  </component>
+</project>

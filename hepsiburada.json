@@ -1,0 +1,122 @@
+{
+  "uuid": "947efe3d-7a61-45f5-a18e-d92a84c19b97",
+  "lastMigration": 19,
+  "name": "hepsiburada",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3000,
+  "hostname": "0.0.0.0",
+  "routes": [
+    {
+      "uuid": "27dc725c-2832-4230-8f98-51390beedd17",
+      "documentation": "Get all grocery",
+      "method": "get",
+      "endpoint": "allGrocery",
+      "responses": [
+        {
+          "uuid": "aa46f47a-e36f-43ba-aca8-334f1c225717",
+          "body": "{\r\n\"data\": [\r\n  {\r\n    \"id\": 1,\r\n    \"name\": \"apple\",\r\n    \"price\": 3,\r\n    \"stock\": 100\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"name\": \"grapes\",\r\n    \"price\": 5,\r\n    \"stock\": 50\r\n  }\r\n]\r\n}",
+          "latency": 50,
+          "statusCode": 200,
+          "label": "Success",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "0dafe77d-f51b-466d-8afc-57934ec516b6",
+      "documentation": "Get name grocery",
+      "method": "get",
+      "endpoint": "allGrocery/apple",
+      "responses": [
+        {
+          "uuid": "036ebfb1-86f8-4297-8ce8-36dfec50b313",
+          "body": "{\r\n\"data\": [\r\n{\r\n\"id\": 1,\r\n\"name\": \"apple\",\r\n\"price\": 3,\r\n\"stock\": 100\r\n}\r\n]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "ac3fc4a7-f1e5-45f7-8230-080cc09d4c98",
+      "documentation": "Add grocery",
+      "method": "post",
+      "endpoint": "add",
+      "responses": [
+        {
+          "uuid": "90a1a364-bac1-446e-bb0f-58a15bcae948",
+          "body": "{\r\n\"id\": 4,\r\n\"name\": \"string\",\r\n\"price\": 12.3,\r\n\"stock\": 3\r\n}",
+          "latency": 50,
+          "statusCode": 200,
+          "label": "Success",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ]
+}
